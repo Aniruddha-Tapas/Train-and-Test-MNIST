@@ -1,8 +1,4 @@
-# TensorFlow<sup>TM</sup> MNIST predict (recognise handwriting)
-
-This repository accompanies the blog post [Using TensorFlow<sup>TM</sup> to create your own handwriting recognition engine](http://niektemme.com/2016/02/21/tensorflow-handwriting/). 
-
-## Installation & Setup
+# TensorFlow<sup>TM</sup> MNIST predict [Recognise Handwritten Digits]
 
 ### Overview
 This project uses the MNIST tutorials from the TensorFlow website. The two tutorials, the beginner tutorial and the expert tutorial, use different deep learning models. The python scripts ending with _1 use the model from the beginner tutorial. The scripts ending with _2 use the model from the advanced tutorial. As expected scripts using the model from the expert tutorial give better results.
@@ -67,5 +63,4 @@ or
 ```python predict_2.py ‘number1.png’```
 
 The first script, predict_1.py, uses the model.ckpt file created by the create_model_1.py script. The second script, predict_2.py, uses the model2.ckpt file created by the create_model_2.py script. 
-
 
